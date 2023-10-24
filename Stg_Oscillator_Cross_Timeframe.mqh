@@ -40,7 +40,7 @@ enum ENUM_STG_OSCILLATOR_CROSS_TIMEFRAME_TYPE {
 // User input params.
 INPUT_GROUP("Oscillator Cross Timeframe strategy: main strategy params");
 INPUT ENUM_STG_OSCILLATOR_CROSS_TIMEFRAME_TYPE Oscillator_Cross_Timeframe_Type =
-    STG_OSCILLATOR_CROSS_TIMEFRAME_TYPE_AD;                       // Oscillator type
+    STG_OSCILLATOR_CROSS_TIMEFRAME_TYPE_TRIX;                     // Oscillator type
 INPUT ENUM_TIMEFRAMES Oscillator_Cross_Timeframe_Tf = PERIOD_H6;  // Oscillator timeframe to cross
 INPUT_GROUP("Oscillator Cross Timeframe strategy: strategy params");
 INPUT float Oscillator_Cross_Timeframe_LotSize = 0;                // Lot size
