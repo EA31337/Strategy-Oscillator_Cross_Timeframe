@@ -1,4 +1,4 @@
-# Strategy Oscillator Cross Shift
+# Strategy Oscillator Cross Timeframe
 
 [![Status][gha-image-check-master]][gha-link-check-master]
 [![Status][gha-image-compile-master]][gha-link-compile-master]
@@ -10,7 +10,7 @@
 
 ## Description
 
-Strategy based on selected oscillator-type indicators with shift crossable logic.
+Strategy based on selected oscillator-type indicators with timeframe crossable signals.
 
 ## Dependencies
 
@@ -25,12 +25,12 @@ Strategy based on selected oscillator-type indicators with shift crossable logic
 [gh-discuss-link]: https://github.com/EA31337/EA31337-Strategies/discussions
 
 [gh-edit-badge]: https://img.shields.io/badge/GitHub-edit-purple.svg?logo=github
-[gh-edit-link]: https://github.dev/EA31337/Strategy-Oscillator_Cross_Shift
+[gh-edit-link]: https://github.dev/EA31337/Strategy-Oscillator_Cross_Timeframe
 
-[gha-link-check-master]: https://github.com/EA31337/Strategy-Oscillator_Cross_Shift/actions?query=workflow:Check+branch%3Amaster
-[gha-image-check-master]: https://github.com/EA31337/Strategy-Oscillator_Cross_Shift/workflows/Check/badge.svg?branch=master
-[gha-link-compile-master]: https://github.com/EA31337/Strategy-Oscillator_Cross_Shift/actions?query=workflow:Compile+branch%3Amaster
-[gha-image-compile-master]: https://github.com/EA31337/Strategy-Oscillator_Cross_Shift/workflows/Compile/badge.svg?branch=master
+[gha-link-check-master]: https://github.com/EA31337/Strategy-Oscillator_Cross_Timeframe/actions?query=workflow:Check+branch%3Amaster
+[gha-image-check-master]: https://github.com/EA31337/Strategy-Oscillator_Cross_Timeframe/workflows/Check/badge.svg?branch=master
+[gha-link-compile-master]: https://github.com/EA31337/Strategy-Oscillator_Cross_Timeframe/actions?query=workflow:Compile+branch%3Amaster
+[gha-image-compile-master]: https://github.com/EA31337/Strategy-Oscillator_Cross_Timeframe/workflows/Compile/badge.svg?branch=master
 
 [license-image]: https://img.shields.io/github/license/EA31337/EA31337-Strategies.svg
 [license-link]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)

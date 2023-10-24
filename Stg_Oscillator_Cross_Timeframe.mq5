@@ -47,7 +47,7 @@ input ENUM_LOG_LEVEL Log_Level = V_INFO;  // Log level.
 input bool Info_On_Chart = true;          // Display info on chart.
 
 // Includes strategy.
-#include "Stg_Oscillator_Cross_Shift.mqh"
+#include "Stg_Oscillator_Cross_Timeframe.mqh"
 
 // Defines.
 #define ea_name "Strategy Oscillator Cross Shift"
