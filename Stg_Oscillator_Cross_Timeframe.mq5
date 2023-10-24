@@ -1,6 +1,6 @@
 /**
  * @file
- * Implements Oscillator Cross Shift strategy.
+ * Implements Oscillator Cross Timeframe strategy.
  */
 
 // Includes conditional compilation directives.
@@ -47,13 +47,13 @@ input ENUM_LOG_LEVEL Log_Level = V_INFO;  // Log level.
 input bool Info_On_Chart = true;          // Display info on chart.
 
 // Includes strategy.
-#include "Stg_Oscillator_Cross_Shift.mqh"
+#include "Stg_Oscillator_Cross_Timeframe.mqh"
 
 // Defines.
-#define ea_name "Strategy Oscillator Cross Shift"
+#define ea_name "Strategy Oscillator Cross Timeframe"
 #define ea_version "2.000"
 #define ea_desc "Strategy based on selected oscillator-type indicators with shift crossable logic."
-#define ea_link "https://github.com/EA31337/Strategy-Oscillator_Cross_Shift"
+#define ea_link "https://github.com/EA31337/Strategy-Oscillator_Cross_Timeframe"
 #define ea_author "EA31337 Ltd"
 
 // Properties.
@@ -79,7 +79,7 @@ int OnInit() {
   bool _result = true;
   EAParams ea_params(__FILE__, Log_Level);
   ea = new EA(ea_params);
-  _result &= ea.StrategyAdd<Stg_Oscillator_Cross_Shift>(Active_Tfs);
+  _result &= ea.StrategyAdd<Stg_Oscillator_Cross_Timeframe>(Active_Tfs);
   return (_result ? INIT_SUCCEEDED : INIT_FAILED);
 }
 
