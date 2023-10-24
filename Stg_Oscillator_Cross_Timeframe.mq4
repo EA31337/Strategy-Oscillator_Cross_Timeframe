@@ -6,7 +6,7 @@
 
 /**
  * @file
- * Implements Oscillator Cross Shift strategy.
+ * Implements Oscillator Cross Timeframe strategy.
  */
 
 // Includes the main code.
